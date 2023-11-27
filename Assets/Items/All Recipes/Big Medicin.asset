@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02f48cc6f4d99a4da6068b9555a1f72, type: 3}
+  m_Name: Big Medicin
+  m_EditorClassIdentifier: 
+  itemToCrafting: {fileID: 11400000, guid: a98af6fe5083d3a42b39a4aa0063b2e7, type: 2}
+  cost:
+  - item: {fileID: 11400000, guid: 5b01ee9923f53534da968a2b6bedd263, type: 2}
+    quantity: 2
+  - item: {fileID: 11400000, guid: beb97a8446849bd4e8c933eed89b7fb3, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 5a259ec395449814cba86685b4826172, type: 2}
+    quantity: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2cca2e3d8ec13d42b9a9305e7f87c81, type: 3}
+  m_Name: Small Medicin
+  m_EditorClassIdentifier: 
+  ItemName: Small Medicin
+  itemDescribtion: Healing your wounds
+  type: 1
+  icon: {fileID: 21300000, guid: 656c35e7bdfe971419653798bcc23bce, type: 3}
+  dropPrefab: {fileID: 86482234515363533, guid: 2a3cecde111e34d45a6ae6d64e49ad8c, type: 3}
+  canStack: 1
+  maxStackAmount: 10
+  consumable:
+  - type: 2
+    value: 50
+  equipPrefab: {fileID: 0}
